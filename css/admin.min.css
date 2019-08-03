@@ -1,0 +1,31 @@
+#text {
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-left: 80px;
+    padding-top: 15px;
+    color: white;
+}
+
+.search {
+    margin-left: 650px;
+    margin-top: 500px;
+}
+
+#sr {
+    margin-top: 60px;
+    margin-left: 400px;
+}
+
+#sr1 {
+    margin-left: 200px;
+}
+
+table,
+td,
+th {
+    margin-top: 100px;
+    padding-top: 20px;
+    padding-right: 250px;
+    height: 30%;
+    color: white;
+}
