@@ -1,0 +1,29 @@
+<div style="margin:20px;">
+<input type="text" [(ngModel)]="name" placeholder="name" />
+  <input type="number" [(ngModel)]="id" placeholder="id" />
+  <input type="number" [(ngModel)]="salary" placeholder="salary" />
+  <input type="text" [(ngModel)]="department" placeholder="department" />
+  <button (click)="buttonClicked()">Insert Row</button>
+
+</div>
+  <hr/>
+
+  <div class="container">
+      <table class="table table-responsive table-striped" style="border: 1px solid black;width:50%;">
+        <tr>
+          <th>Name</th>
+          <th>id</th>
+          <th>salary</th>
+          <th>department</th>
+        </tr>
+        <tr *ngFor="let row of rows">
+          <td>{{row.name}}</td>
+          <td>{{row.id}}</td>
+          <td>{{row.salary}}</td>
+          <td>{{row.department}}</td>
+        </tr>
+      </table>
+      <div>
+    
+
+  
